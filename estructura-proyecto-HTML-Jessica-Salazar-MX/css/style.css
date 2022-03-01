@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'
+    );
+    
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   
+
+    /* HEADER */
+
+header {
+    background-color: black;
+    height: 10%;
+}
+
+.img {
+    align-items: center;
+}
+
+.navFlex li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    border-bottom: 2px solid black;
+
+}
+.navFlex li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    
+
+    /* MAIN */
+
+.conteiner {
+    background-color: white;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+.lista{
+    font-size: 10px;
+ }
+.titulo {
+    font-size: 21px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    grid-template-rows:10%;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    border: solid 1px grey;
+}
+
+.grid div{
+    background-color: lightgray;
+    border: solid 3 px white;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20% 20%;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    /* FOOTER */
+
+.footer{
+    background-color: #187aef;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
